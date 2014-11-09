@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05fa45c5-2ee2-4b42-8f1c-45261ee169ea}</ProjectGuid>
+    <ProjectGuid>{05FA45C5-2EE2-4B42-8F1C-45261EE169EA}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TurisMapp</RootNamespace>
@@ -105,9 +105,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\DarkGray.png" />
+    <Content Include="Assets\independencia.png" />
     <Content Include="Assets\LightGray.png" />
-    <Content Include="Assets\MediumGray.png" />	
-    <Content Include="Assets\HubBackground.theme-dark.png"/>
+    <Content Include="Assets\MediumGray.png" />
+    <Content Include="Assets\HubBackground.theme-dark.png" />
     <Content Include="Assets\HubBackground.theme-light.png" />
     <Content Include="Assets\Logo.scale-240.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
