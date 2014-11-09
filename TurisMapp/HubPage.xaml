@@ -60,26 +60,9 @@
     </Page.Resources>
 
     <Grid x:Name="LayoutRoot">
-        <Hub x:Name="Hub" x:Uid="Hub" Header="application name" Background="{ThemeResource HubBackgroundImageBrush}">
-            <HubSection x:Uid="HubSection1" Header="SECTION 1" DataContext="{Binding Groups}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
-                <DataTemplate>
-                    <ListView
-                        ItemsSource="{Binding}"
-                        IsItemClickEnabled="True"
-                        ItemClick="GroupSection_ItemClick"
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <StackPanel Margin="0,0,0,27.5">
-                                    <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}" />
-                                </StackPanel>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </DataTemplate>
-            </HubSection>
+        <Hub x:Name="Hub" x:Uid="Hub" Header="TurisMapp" Background="{ThemeResource HubBackgroundImageBrush}">
 
-            <HubSection x:Uid="HubSection2" Header="SECTION 2" Width="Auto"
+            <HubSection x:Uid="HubSection1" Header="Favoritos" Width="Auto"
                          DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
                 <DataTemplate>
                     <GridView
@@ -101,46 +84,7 @@
                 </DataTemplate>
             </HubSection>
 
-            <HubSection x:Uid="HubSection3" Header="SECTION 3"
-                        DataContext="{Binding Groups[1]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
-                <DataTemplate>
-                    <ListView 
-                        AutomationProperties.AutomationId="ItemListViewSection3"
-                        AutomationProperties.Name="Items In Group"
-                        SelectionMode="None"
-                        IsItemClickEnabled="True"
-                        ItemsSource="{Binding Items}"
-                        ItemTemplate="{StaticResource StandardTripleLineItemTemplate}"
-                        ItemClick="ItemView_ItemClick"
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
-                    </ListView>
-                </DataTemplate>
-            </HubSection>
-
-            <HubSection x:Uid="HubSection4" Header="SECTION 4"
-                        DataContext="{Binding Groups[2]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
-                <DataTemplate>
-                    <ListView 
-                        AutomationProperties.AutomationId="ItemListViewSection4"
-                        AutomationProperties.Name="Items In Group"
-                        SelectionMode="None"
-                        IsItemClickEnabled="True"
-                        ItemsSource="{Binding Items}"
-                        ItemClick="ItemView_ItemClick"
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <StackPanel Margin="0,0,0,19">
-                                    <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
-                                    <TextBlock Text="{Binding Subtitle}" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
-                                </StackPanel>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </DataTemplate>
-            </HubSection>
-
-            <HubSection x:Uid="HubSection5" Header="SECTION 5"
+            <HubSection x:Uid="HubSection5" Header="Zonas"
                         DataContext="{Binding Groups[3]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
                 <DataTemplate>
                     <ListView 
