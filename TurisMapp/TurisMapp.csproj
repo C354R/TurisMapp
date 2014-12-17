@@ -104,6 +104,8 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\centraal.jpg" />
+    <Content Include="Assets\chapultepec.jpg" />
     <Content Include="Assets\DarkGray.png" />
     <Content Include="Assets\independencia.png" />
     <Content Include="Assets\LightGray.png" />
@@ -111,11 +113,14 @@
     <Content Include="Assets\HubBackground.theme-dark.png" />
     <Content Include="Assets\HubBackground.theme-light.png" />
     <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\position.png" />
     <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\Soumaya.png" />
     <Content Include="Assets\SplashScreen.scale-240.png" />
     <Content Include="Assets\Square71x71Logo.scale-240.png" />
     <Content Include="Assets\StoreLogo.scale-240.png" />
     <Content Include="Assets\WideLogo.scale-240.png" />
+    <Content Include="Assets\zocalo.jpg" />
     <Content Include="Common\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
